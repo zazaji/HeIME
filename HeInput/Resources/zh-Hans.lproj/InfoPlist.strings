@@ -1,0 +1,10 @@
+/* Resources/zh-Hans.lproj/InfoPlist.strings */
+
+/* 覆盖 Info.plist 中的基础名称 */
+"CFBundleName" = "和码输入法";
+"CFBundleDisplayName" = "和码输入法";
+
+/* 关键：将 TISInputSourceID 映射为本地化名称，解决系统设置中显示 Bundle ID 的问题 */
+"hezi.inputmethod.HeInput" = "和码输入法";
+"hezi.inputmethod.HeInput.default" = "和码输入法";
+"com.apple.inputmethod.HeInput" = "和码输入法";

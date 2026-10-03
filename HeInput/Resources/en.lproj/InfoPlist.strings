@@ -1,0 +1,10 @@
+/* Resources/en.lproj/InfoPlist.strings */
+
+/* 覆盖 Info.plist 中的基础名称 */
+"CFBundleName" = "HeMa Keyboard";
+"CFBundleDisplayName" = "HeMa Keyboard";
+
+/* 关键：将 TISInputSourceID 映射为本地化名称，解决系统设置中显示 Bundle ID 的问题 */
+"hezi.inputmethod.HeInput" = "HeMa Keyboard";
+"hezi.inputmethod.HeInput.default" = "HeMa Keyboard";
+"com.apple.inputmethod.HeInput" = "HeMa Keyboard";

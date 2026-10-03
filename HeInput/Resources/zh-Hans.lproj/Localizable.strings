@@ -1,0 +1,24 @@
+/* Resources/zh-Hans.lproj/Localizable.strings */
+
+/* Menu items */
+"menu.title" = "HeInput 菜单";
+"menu.current.he_ma" = "当前: 和码";
+"menu.current.pinyin" = "当前: 拼音";
+"menu.current.english" = "当前: 英文 (%@)";
+"menu.current.chinese" = "当前: 中文 (%@)";
+"menu.current.simplified" = "当前: 简体";
+"menu.current.traditional" = "当前: 繁体";
+"menu.preferences" = "偏好设置...";
+
+/* Input modes */
+"input_mode.he_ma" = "和码";
+"input_mode.pinyin" = "拼音";
+"input_mode.english" = "英文";
+"input_mode.chinese" = "中文";
+
+/* Character sets */
+"charset.simplified" = "简体";
+"charset.traditional" = "繁体";
+
+/* Toggle instructions */
+"toggle.shift_instruction" = "按左Shift切换";

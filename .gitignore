@@ -1,0 +1,25 @@
+# ==== Xcode / 构建产物 ====
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.dSYM
+
+# ==== 不上传：脚本 / 日志 / 压缩包 / 安装包 / 临时文件 ====
+*.sh
+*.log
+*.zip
+*.pkg
+*.dmg
+temp/
+worker/
+pkg_root/
+pkg_scripts/
+pkg_resources/
+Distribution.xml
+.DS_Store
+*.txt
+
+# ==== 文档：只保留 README ====
+*.md
+!README.md

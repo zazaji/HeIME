@@ -1,0 +1,24 @@
+/* Resources/en.lproj/Localizable.strings */
+
+/* Menu items */
+"menu.title" = "HeInput Menu";
+"menu.current.he_ma" = "Current: HeMa";
+"menu.current.pinyin" = "Current: Pinyin";
+"menu.current.english" = "Current: English (%@)";
+"menu.current.chinese" = "Current: Chinese (%@)";
+"menu.current.simplified" = "Current: Simplified";
+"menu.current.traditional" = "Current: Traditional";
+"menu.preferences" = "Preferences...";
+
+/* Input modes */
+"input_mode.he_ma" = "HeMa";
+"input_mode.pinyin" = "Pinyin";
+"input_mode.english" = "English";
+"input_mode.chinese" = "Chinese";
+
+/* Character sets */
+"charset.simplified" = "Simplified";
+"charset.traditional" = "Traditional";
+
+/* Toggle instructions */
+"toggle.shift_instruction" = "Press Left Shift to switch";

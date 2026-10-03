@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <key>CFBundleDevelopmentRegion</key>
+    <string>zh_CN</string>
+
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+
+    <key>CFBundleIdentifier</key>
+    <string>hezi.inputmethod.HeInput</string>
+
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+
+    <key>CFBundleName</key>
+    <string>和码输入法</string>
+
+    <key>CFBundleDisplayName</key>
+    <string>和码输入法</string>
+
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+
+    <key>CFBundleVersion</key>
+    <string>2</string>
+
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+
+    <key>LSUIElement</key>
+    <true/>
+
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+
+    <key>InputMethodConnectionName</key>
+    <string>hezi.inputmethod.HeInput_Connection</string>
+
+    <key>InputMethodServerControllerClass</key>
+    <string>HeInputController</string>
+
+    <key>TISIntendedLanguage</key>
+    <string>zh-Hans</string>
+
+    <key>tsInputMethodCharacterRepertoireKey</key>
+    <array>
+        <string>Hans</string>
+    </array>
+
+    <key>tsInputModeLocalizedNameKey</key>
+    <string>和码输入法</string>
+
+    <key>tsInputMethodIsSelectable</key>
+    <true/>
+    
+    <key>tsInputMethodIconFileKey</key>
+    <string>he_icon.png</string>
+
+    <key>ComponentInputModeDict</key>
+    <dict>
+        <key>tsInputModeListKey</key>
+        <dict>
+            <key>hezi.inputmethod.HeInput.default</key>
+            <dict>
+                <key>TISInputSourceID</key>
+                <string>hezi.inputmethod.HeInput.default</string>
+
+                <key>TISIntendedLanguage</key>
+                <string>zh-Hans</string>
+
+                <key>tsInputModeCharacterRepertoireKey</key>
+                <array>
+                    <string>Hans</string>
+                </array>
+
+                <key>tsInputModeDefaultStateKey</key>
+                <true/>
+
+                <key>tsInputModeIsVisibleKey</key>
+                <true/>
+
+                <key>tsInputModeLocalizedNameKey</key>
+                <string>和码输入法</string>
+
+                <key>tsInputModePrimaryInScriptKey</key>
+                <true/>
+
+                <key>tsInputModeScriptKey</key>
+                <string>smUnicodeScript</string>
+                
+                <key>tsInputModeMenuIconFileKey</key>
+                <string>he_icon.png</string>
+                
+                <key>tsInputModePaletteIconFileKey</key>
+                <string>he_icon.png</string>
+            </dict>
+        </dict>
+
+        <key>tsVisibleInputModeOrderedArrayKey</key>
+        <array>
+            <string>hezi.inputmethod.HeInput.default</string>
+        </array>
+    </dict>
+
+</dict>
+</plist>
